@@ -1,5 +1,45 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  gap: 10px;
+  background-color: rgb(11, 13, 24);
+}
+input{
+  border: solid rgb(32, 30, 30) 0.1px;
+  border-radius: 7px;
+  min-height: 40px;
+}
+input:focus{
+  outline: solid #0a8bc7 1px;
+  border: solid #0a8bc7 0.1px;
+}
+
+
+button {
+  padding: 7px 12px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 8px;
+  font-size: 16px;
+  margin: 0;
+  background-color: #0a8bc7;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: rgb(8, 167, 241);
+}
+
+button:active {
+  background-color: rgb(5, 98, 138);
 }
 
 .App-logo {
